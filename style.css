@@ -1,0 +1,55 @@
+body {
+  background-color: hsl(212, 45%, 89%); /* Cor de fundo */
+  font-family: "Outfit", sans-serif; /* Fonte */
+}
+
+.container {
+  display: flex; /* Muda o display para flex */
+  justify-content: center; /* Conteudo alinhado ao centro */
+  align-items: center; /* Itens alinhado ao centro */
+} 
+.box {
+  max-width: 20rem; /* Tamanho largura */
+  max-height: 70rem; /* Tamanho altura */
+  margin: 1rem; /* Espaçamento dos lados de fora para dentro */
+  padding: 2rem; /* Espaçamento dos lados de dentro para fora */
+  position: relative; /*Elemento passa a aceitar as propriedades Top, Bottom, Left e Right*/
+  display: flex; /* Muda o display para flex */
+  flex-direction: column; /* Fica um em cima do outro */
+  justify-content: center; /* Conteudo alinhado ao centro */
+  align-items: center; /* Itens alinhado ao centro */
+  background-color: White; /* Cor da box */
+  border-radius: 5%; /* Curvatura da borda */
+  box-shadow: 1rem 1rem 3rem 0 rgba(0, 0, 0, 15%); /* Sombra da borda */
+}
+.img {
+  position: relative; /*Elemento passa a aceitar as propriedades Top, Bottom, Left e Right*/
+  width: 100%; /* Tamanho (100% dentro da box) */
+  border-radius: 5%; /* Curvatura da borda */
+}
+
+h1, p {
+  text-align: center; /* Texto alinhado ao centro */
+  width: 100%; /* Tamanho (100% dentro da box) */
+  margin: 1rem; /* Espaçamento dos lados de fora para dentro (a box nesse caso não entra) */
+  align-items: center; /* Itens alinhado ao centro */
+}
+
+h1 {
+  font-size: 1.5rem; /* Tamanho da fonte */
+  font-weight: bold; /* Peso da fonte */
+}
+
+p {
+  font-size: 0.93rem; /* Tamanho da fonte */
+  font-weight: lighter; /* Peso da fonte */
+  color: hsl(220, 15%, 55%); /* Cor do texto */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
